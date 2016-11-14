@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 0px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  margin-top: 20px;
+  padding-right: 20px;
+}
+body {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1em;
+  text-align: center;
+}
+
+body p {
+  text-align: left;
+  padding-left: 22px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#link {
+  text-align: right;
+  color: red;
+  padding-top:20px;
+  padding-right: 40px;
+}
+
+#topBar {
+  background-color: rgba(209,122,60,0.5);
+  color: rgba(209,122,60,1);
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 1em;
+  text-align: left;
+}
+.column {
+  width: 25%;
+  float: left;
+  margin: auto;
+}
+.column h3 {
+  color: #3543a9;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  font-size: 22px;
+}
+img {
+  width: 70%;
+  border: 3px solid #07338c;
+  margin-bottom: 10px;
+}
+.online {
+  font-size: 13px;
+  color: rgb(51,102,51);
+  line-height: 50px;
+  display: inline-block;
+}
+.online img {
+  width: 10%;
+  border: 0px;
+  margin: auto;
+
+}
+
+#friend {
+  color: red;
+}
