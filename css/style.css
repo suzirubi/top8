@@ -2,15 +2,13 @@
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-      box-sizing: border-box;
-      margin: 0px;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
 }
-
 a {
   color: red;
   text-decoration: none;
-  margin-top: 20px;
   padding-right: 20px;
 }
 body {
@@ -20,30 +18,24 @@ body {
   line-height: 1em;
   text-align: center;
 }
-
 body p {
   text-align: left;
-  padding-left: 22px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
-#link {
-  text-align: right;
-  color: red;
-  padding-top:20px;
-  padding-right: 40px;
-}
-
 #topBar {
   background-color: rgba(209,122,60,0.5);
   color: rgba(209,122,60,1);
-  height: 60px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
   font-size: 18px;
-  line-height: 1em;
   text-align: left;
+  height: 75px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+.columnContainer {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+
 }
 .column {
   width: 25%;
@@ -71,9 +63,13 @@ img {
   width: 10%;
   border: 0px;
   margin: auto;
-
 }
-
+#link {
+  text-align: right;
+  color: red;
+  padding-top:20px;
+  padding-right: 40px;
+}
 #friend {
   color: red;
 }
